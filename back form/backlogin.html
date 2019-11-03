@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Back Form</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <!-- main container -->
+    <div class="container">
+      <!-- container, where width of the form is defined -->
+      <div class="mainHeader">
+        <!-- bootstrap classes for making webpage responsive -->
+        <div class="row">
+          <div class="col-sm-12">
+            <!-- title of the website -->
+            <div class="title text-center">
+              <!-- logo of the website -->
+              <img class="img-responsive" src="transprent-logo1.gif" alt="" />
+              <h2>
+                sam higginbottom university of agriculture, technology &
+                sciences
+              </h2>
+            </div>
+            <!-- end of title/header -->
+          </div>
+        </div>
+
+        <h3>
+          PERFORMA TO APPEAR IN BACK EXAM UG, PG & Ph.D PROGRAMME
+        </h3>
+
+        <!--defining the form structure -->
+        <div class="form">
+          <form action="#">
+            <fieldset class="field_set">
+              <div class="row">
+                <div class="col-sm-8">
+                  <!-- section 1 part 1 -->
+                  <div class="sec1">
+                    <p>dean/HoD</p>
+                    <p>engineering & technology</p>
+                    <p>
+                      vaugh institute of agricultural engineering & technology
+                    </p>
+                    <p>Allahabad</p>
+                  </div>
+                </div>
+                <!-- section 1 part 2 -->
+                <div class="col-sm-4">
+                  <div class="photo"></div>
+                </div>
+              </div>
+              <!-- end of section 1 -->
+              <div class="row">
+                <div class="col-sm-12">
+                  <div>
+                    <label for="name">Name of Student</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Your name.."
+                    />
+
+                    <label for="id">I.D.No. </label>
+                    <input
+                      type="text"
+                      id="idno"
+                      name="idno"
+                      placeholder="Your I.D No.."
+                    />
+
+                    <label for="program">Programme</label>
+                    <select id="programme" name="programme">
+                      <option value="select">*Select*</option>
+                      <option value="BCA">BCA</option>
+                      <option value="B.Tech(CE)">B.Tech(CE)</option>
+                      <option value="B.Tech(Ag)">B.Tech(Ag)</option>
+                      <option value="B.Tech(CSE)">B.Tech(CSE)</option>
+                      <option value="B.Tech(EE)">B.Tech(EE)</option>
+                    </select>
+                  </div>
+
+                  <div class="sec2">
+                    <b>Sir,</b>
+                    <p>
+                      I am desirous to appear in Back exam of __________
+                      semester as per the details furnished below -{xerox copy
+                      of marksheet is enclosed herewith.}
+                    </p>
+                  </div>
+                </div>
+                <div class="buttonHolder">
+                  <input type="submit" value="Submit" />
+                </div>
+                <br />
+              </div>
+            </fieldset>
+          </form>
+        </div>
+
+        <!--         
+        <div class="">
+          <p>declaration by the student</p>
+          <div class="checkbox">
+            <label
+              ><input type="checkbox" value="" />I hereby solemnly and sincerely
+              declare that the statement made above is true and correct to the
+              best of my knowledge and belief and that nothing has been
+              concealed
+            </label>
+          </div>
+        </div>
+
+        <div class="">
+          <p>back exam fees per course <mark>Rs. 300/-</mark></p>
+          <p>(Fee to be deposited in finance controller office)</p>
+        </div> -->
+      </div>
+    </div>
+  </body>
+</html>
